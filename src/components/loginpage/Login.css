@@ -1,0 +1,99 @@
+.Login{
+    width:5000px;
+    height:5000px;
+    background:#0B132B;
+}
+.login_body{
+    width:1440px;
+    height:1200px;
+    background:#0B132B;
+    display: flex;
+}
+.Logo{
+position: absolute;
+width: 473.93px;
+height: 217px;
+left: 0px;
+top: 4px;
+}
+.rectangle{
+position: absolute;
+width: 521px;
+height: 641px;
+left: 29px;
+top: 277px;
+
+border: 5px solid #6FFFE9;
+box-sizing: border-box;
+border-radius: 23px;
+}
+.signin{
+display:flex;
+padding:20px;
+flex-direction: column;
+position: absolute;
+width: 403px;
+height: 79px;
+left: 40px;
+top: 70px;
+align-items: center;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+color: #FFFFFF;
+}
+.signinlogo
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-top: 30px;
+    width:400px;
+    height:60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-top: 40px;
+    width:400px;
+    height:60px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.google{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-top: 40px;
+    width:400px;
+    height:60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+padding-top:30px;
+}
+.signup_color{
+    color:#6FFFE9;
+}
+
