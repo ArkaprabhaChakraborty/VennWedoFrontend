@@ -12,7 +12,6 @@ const Login = ()=>{
             <div className="Logo">
                 <Logo/>
             </div>
-        </div>
         <div className="rectangle">
             <div className="signin">
                 <div className="signinlogo">
@@ -33,6 +32,7 @@ const Login = ()=>{
             </div>
         </div>
         <Polygon/>
+        </div>
         </div>
         </div>
     );

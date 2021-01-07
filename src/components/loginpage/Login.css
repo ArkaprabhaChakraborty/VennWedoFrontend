@@ -1,13 +1,17 @@
 .Login{
-    width:5000px;
-    height:5000px;
+    width:1600px;
+    height:1500px;
     background:#0B132B;
 }
 .login_body{
+    position: absolute;
+    margin-top: 40px;
     width:1440px;
     height:1200px;
-    background:#0B132B;
+    background-color:#0B132B;
     display: flex;
+    flex-direction: row;
+    padding: 40px;
 }
 .Logo{
 position: absolute;
