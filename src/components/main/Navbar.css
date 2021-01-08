@@ -1,0 +1,49 @@
+.navbar
+{
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 20px;
+    background: rgba(91, 192, 190, 0.37);
+    border: 1px solid #6FFFE9;
+    align-items: center;
+}
+.search
+{
+    display:flex;
+    margin-left: 220px;
+    height:px;
+    margin-right: 2px;
+    padding: 2px 8px;
+}
+input{
+    width :480px;
+    border-radius: 5px;
+    height: 23px;
+    margin-top: 10px;
+    background:#C4C4C4;
+    ;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    width: 135px;
+    height: 160px;  
+    left: 40px;
+    top: 10px;
+    padding-left: 30px;
+}
+.search_button
+{
+    display:flex;
+    flex-direction: row;
+    color:#C4C4C4;
+    height: 50px;
+    width:80px;
+    align-items: center;
+    font-size: 40px;
+    padding: 0px 4px;
+}
