@@ -6,13 +6,13 @@ function Nav() {
     return (
         <div className="navbar">
             <div className="logo">
-            <LogoUpper/>
+                <LogoUpper/>
             </div>
             <div className="search">
-            <input></input>
-            <div className="search_button">
-            <PageviewRounded fontSize="large"/>
-            </div>
+                <input placeholder="Search"></input>
+                <div className="search_button">
+                    <PageviewRounded fontSize="large"/>
+                </div>
             </div>
         </div>
     )
