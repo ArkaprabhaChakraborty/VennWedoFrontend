@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'Reem Kufi', sans-serif !important;
+    src: url("./../../components/fonts/ReemKufi-Regular.ttf");
+    }
+.video
+{
+    height : 100vh;
+    background:#0B132B;
+    width: 100%;
+    display: flex;
+}
+.videoplayer_body
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color:white;
+    height:100%;
+    width:100%;
+    
+}
+
+.videoarea
+{
+    margin-top: 80px;
+    padding-top: 80px;
+    margin-left: 30px;
+    padding: 0px;
+    max-width: 700px;
+    height: 510px;
+    left: 62px;
+    top: 200px;
+
+    background: rgba(196, 196, 196, 0.07);
+    border: 4px solid #6FFFE9;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+.nowplaying
+{
+    display:flex;
+    width:60%;
+    height:100%;
+    color:white;
+    flex-direction: column;
+    
+}
+.sideband
+{
+    display:flex;
+    width:40%;
+    height: 100%;
+    background:rgba(58, 80, 107,0.9);
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.sideband::-webkit-scrollbar
+{
+    display: none;
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+.videoTitle
+{
+    font-size: 30px;
+    margin-left: 40px;
+}
+.videosuggestions
+{
+    width: 235px;
+    max-width: 240px;
+    height: 178px;
+    margin-top: 142px;
+    margin-left:10px;
+
+    background: rgba(28, 37, 65, 0.85);
+    border: 5px solid #5BC0BE;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+.viewcountbar
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.thumbnails
+{
+    width: 220px;
+    max-width: 235px;
+    height: 168px;
+    border-radius: 14px;   
+}
+body
+{
+    height:90vh;
+    width: 100%;
+    background:#0B132B;
+}

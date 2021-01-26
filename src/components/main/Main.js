@@ -8,6 +8,8 @@ const Main = () => {
             <Nav/>
             <div className="main_body">
                 <VideoGrid/>
+                <VideoGrid/>
+                <VideoGrid/>
             </div>   
         </div>
     )

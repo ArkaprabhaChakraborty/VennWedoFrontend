@@ -4,15 +4,29 @@ src: url("./../../components/fonts/ReemKufi-Regular.ttf");
 }
 .mainapp
 {
-    width: 1600px;
-    height: 720px;
+    width: 2600px;
+    height: 100%;
     background:#0B132B;
 }
 .main_body
 {
+    padding-top: 60px;
     display: flex;
+    flex-direction: column;
     position: relative;
     color:white;
     height:89%;
-    background:rgba(58, 80, 107,0.4);
+    width:100%;
+    background:rgba(58, 80, 107,0.9);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+.main_body::-webkit-scrollbar
+{
+    display:none;
 }
