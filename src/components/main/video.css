@@ -47,6 +47,8 @@
 }
 .sideband
 {
+    margin-top:60px;
+    padding-top: 10px;
     display:flex;
     width:40%;
     height: 100%;
@@ -68,32 +70,39 @@ body::-webkit-scrollbar
 {
     font-size: 30px;
     margin-left: 40px;
+    padding: 0px;
 }
 .videosuggestions
 {
-    width: 235px;
+    width: 50%;
+    height: 125px;
     max-width: 240px;
-    height: 178px;
-    margin-top: 142px;
-    margin-left:10px;
-
+    display: flex;
     background: rgba(28, 37, 65, 0.85);
     border: 5px solid #5BC0BE;
     box-sizing: border-box;
     border-radius: 14px;
+    align-items: center;
+    margin-left:10px;
+    flex-direction: row;
 }
 .viewcountbar
 {
+    width: 89%;
+    margin-top: -10px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
+    padding-top: 0px;
+    height:10px;
+    align-items: center;
 }
 .thumbnails
 {
-    width: 220px;
-    max-width: 235px;
-    height: 168px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
     border-radius: 14px;   
 }
 body
@@ -101,4 +110,50 @@ body
     height:90vh;
     width: 100%;
     background:#0B132B;
+}
+
+
+.suggestionflex
+{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggestionflex:hover
+{
+    background: rgba(28, 37, 65, 0.925);
+}
+.details
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    
+}
+.actionbar
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    height:9px;
+    align-items: center;
+}
+.videoname
+{
+    font-size: larger;
+    font-weight: 600;
+    padding: 0px;
+}
+.viewbar
+{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
 }

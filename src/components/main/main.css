@@ -21,12 +21,5 @@ src: url("./../../components/fonts/ReemKufi-Regular.ttf");
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
-}
-body::-webkit-scrollbar
-{
-    display: none;
-}
-.main_body::-webkit-scrollbar
-{
-    display:none;
+    overflow-x: scroll;
 }
